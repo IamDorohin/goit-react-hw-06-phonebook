@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AppContainer = styled.main`
-  background-color: #103645;
+  background-color: white;
   height: 100vh;
   display: flex;
   text-align: center;
@@ -17,10 +17,10 @@ export const AppSection = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 350px;
   height: 80%;
   padding: 50px;
-  border: 3px solid black;
+  border: 1px solid black;
   border-radius: 20px;
-  background-color: #8f5810;
+  background-color: rgba(173, 164, 169, 0.8);
 `;

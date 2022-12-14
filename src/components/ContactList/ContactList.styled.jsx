@@ -4,7 +4,8 @@ export const Contacts = styled.ul`
   list-style: none;
   padding: 20px;
   width: 300px;
-  border: 2px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   border-radius: 5px;
 `;
 
@@ -25,7 +26,7 @@ export const ContactDetails = styled.span`
 export const ContactButton = styled.button`
   width: 70px;
   height: 25px;
-  background-color: #103645;
+  background-color: rgba(120, 116, 118, 0.8);
   border: 1px solid transparent;
   border-radius: 5px;
   &:hover,

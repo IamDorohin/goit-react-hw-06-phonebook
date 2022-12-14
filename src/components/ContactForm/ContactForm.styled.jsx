@@ -7,12 +7,16 @@ export const FormContainer = styled.form`
   justify-content: center;
   margin-bottom: 30px;
   padding: 20px;
+  height: 100px;
   width: 300px;
-  border: 2px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   border-radius: 5px;
 `;
 
 export const FormLabel = styled.label`
+  color: black;
+
   &:not(:last-child) {
     margin-bottom: 10px;
   }
@@ -22,9 +26,10 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
+  margin-top: 15px;
   width: 100px;
   height: 25px;
-  background-color: #103645;
+  background-color: rgba(120, 116, 118, 0.8);
   border: 1px solid transparent;
   border-radius: 5px;
   &:hover,
