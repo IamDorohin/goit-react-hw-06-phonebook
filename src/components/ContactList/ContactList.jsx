@@ -9,7 +9,7 @@ import {
 } from 'components/ContactList/ContactList.styled';
 
 export const ContactList = () => {
-  const contactsArray = useSelector(state => state.contacts);
+  const contactsArray = useSelector(state => state.contacts.contacts);
   const filteredNames = useSelector(state => state.filter);
   let normalizedFilter = filteredNames.toLowerCase();
   const filteredContactsArray = contactsArray.filter(contact =>
